@@ -1,22 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './style.css';
-import Header from './Components/Header'
-import SearchMovies from './Components/searchMovies';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import reportWebVitals from "./reportWebVitals";
+import App from "./App";
 
 class Main extends React.Component {
   render() {
     return (
       <div className="container">
         <h1 className="title">Movie Search</h1>
-        <SearchMovies />
+        <App />
       </div>
     );
   }
 }
 
-ReactDOM.render(<Main />, document.getElementById('root'));
+ReactDOM.render(<Main />, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

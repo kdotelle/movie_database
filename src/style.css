@@ -7,8 +7,6 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
     background-color: rgb(67, 93, 141);
     color: rgb(253, 249, 249);
 }
@@ -64,4 +62,9 @@ small {
 
 .button:hover {
     background-color: rgba(0,0,0,.85)
+}
+
+.move-app > .row {
+    overflow-x: auto;
+    flex-wrap: nowarp;
 }
