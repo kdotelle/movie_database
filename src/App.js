@@ -13,7 +13,6 @@ const App = () => {
     const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=14c9736d`;
 
     const response = await fetch(url).then((response) => response.json());
-    //const responseJson = response.json();
 
     if (response.Search) {
       setMovies(response.Search);

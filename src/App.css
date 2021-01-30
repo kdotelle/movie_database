@@ -1,72 +1,86 @@
-
-
-html {
-    font-size: 10px;
-}
-
-* {
-    box-sizing: border-box;
-}
-
 body {
-    background-color: rgb(67, 93, 141);
-    color: rgb(253, 249, 249);
+  background-color: rgb(15, 15, 15);
+  color: rgb(253, 249, 249);
 }
 
-p {
-    font-size: 1.6rem;
-}
-
-small {
-    font-size: 1.2rem;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 1000pd;
-    padding: 40px;
-}
-
-.title {
-    font-size: 4.4rem;
-    text-align: center;
-}
-
-.form {
-    display: grid;
-}
-
-.label {
-    font-size: 2rem;
-    margin-bottom: 0.2rem; 
-    text-align: center;
-}
-
-.input {
-    font-size: 1.6rem;
-    padding: 0.5rem 2 rem;
-    line-height: 2.8rem;
-    border-radius: 20px;
-    border: 1px solid #ddd;
-    margin-bottom: 1rem;
+h1 {
+    font-family: Monaco, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
 }
 
 .button {
-    background-color: rgba(0,0,0,0.75);
-    color: white;
-    padding: 1rem 2rem;
-    border: 1px solid rgba(0,0,0,0.75);
-    border-radius: 20px;
-    font-size: 1.4rem;
-    cursor: pointer;
-    transition: background-color 250ms;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 12px 30px;
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 250ms;
 }
 
 .button:hover {
-    background-color: rgba(0,0,0,.85)
+  background-color: rgba(0, 0, 0, 0.85);
+  color: gray;
 }
 
 .move-app > .row {
-    overflow-x: auto;
-    flex-wrap: nowarp;
+  overflow-x: auto;
+  flex-wrap: nowarp;
+}
+
+input[type=text]{
+  float: right;
+  clear: both;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid gray;
+}
+
+.media {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:rgba(37, 37, 37, 0.75)
+}
+
+.media:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: Monaco, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
 }
