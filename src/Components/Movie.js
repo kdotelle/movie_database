@@ -12,7 +12,7 @@ const MovieList = (props) => {
           <div className="d-flex justify-content-md-center m-3">
             <img className="image align-self-center" src={movie.Poster === "N/A" ? DEFAULT_IMAGE : movie.Poster} alt={movie.Title} />
           <div className="overlay">
-            <div className="text">{movie.Title} <br/> {movie.Year}
+            <div className="text">{movie.Title} <br/> {movie.Type} <br/> {movie.Year}
             </div>
           </div>
           </div>

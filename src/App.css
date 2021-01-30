@@ -1,11 +1,12 @@
 body {
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(46, 44, 44);
   color: rgb(253, 249, 249);
 }
 
 h1 {
-    font-family: Monaco, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Monaco, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva', Verdana, sans-serif;
     text-align: justify;
+    text-shadow: 1px 2px 4px #867a528c;
 }
 
 .button {
@@ -28,6 +29,7 @@ h1 {
 .move-app > .row {
   overflow-x: auto;
   flex-wrap: nowarp;
+  
 }
 
 input[type=text]{
@@ -42,6 +44,8 @@ input[type=text]{
 
 .media {
   position: relative;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.8);
+  
 }
 
 .image {
@@ -77,10 +81,12 @@ input[type=text]{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  text-transform: capitalize;
 }
 
 h2 {
   font-size: 24px;
-  font-family: Monaco, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Alegreya Sans, Verdana, sans-serif;
   text-align: justify;
+  text-transform: capitalize;
 }
