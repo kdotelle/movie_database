@@ -30,7 +30,6 @@ h1 {
 
 .move-app > .row {
   overflow-x: auto;
-  flex-wrap: nowrap;
 }
 
 input[type="text"] {
