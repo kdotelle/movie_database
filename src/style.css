@@ -1,25 +1,24 @@
-
 body {
-    background-color: rgb(67, 93, 141);
-    color: rgb(253, 249, 249);
+  background-color: #435d8d;
+  color: rgb(253, 249, 249);
 }
 
 .button {
-    background-color: rgba(0,0,0,0.75);
-    color: white;
-    padding: 1rem 2rem;
-    border: 1px solid rgba(0,0,0,0.75);
-    border-radius: 20px;
-    font-size: 1.4rem;
-    cursor: pointer;
-    transition: background-color 250ms;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 1rem 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 250ms;
 }
 
 .button:hover {
-    background-color: rgba(0,0,0,.85)
+  background-color: rgba(0, 0, 0, 0.85);
 }
 
 .move-app > .row {
-    overflow-x: auto;
-    flex-wrap: nowarp;
+  overflow-x: auto;
+  flex-wrap: nowrap;
 }

@@ -8,6 +8,8 @@ import "../style.css";
 //const REACT_APP_API_KEY = "14c9736d";
 
 const SearchMovies = (props) => {
+
+  
   const handleInput = (event) => {
     props.setSearchValue(event.target.value);
     console.log(event.target.value);
@@ -24,6 +26,7 @@ const SearchMovies = (props) => {
             placeholder="Search Movie"
             onChange={handleInput}
             value={props.value}
+            
           />
         </div>
       </div>
